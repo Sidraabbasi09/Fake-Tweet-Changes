@@ -1,0 +1,17 @@
+.footer-distributed h3 {
+    font-weight: 700;
+    font-size: 24px;
+    color: #fff;
+    text-transform: uppercase;
+  }
+  
+  .footer-distributed a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .footer-distributed a:hover {
+    text-decoration: underline;
+  }
+  
+  

@@ -1,0 +1,265 @@
+body{
+  margin:0;
+  padding:0;
+}
+.nav-item a{
+  font-size: 1rem;
+}
+.clrr{
+  background-color: #a2d7f8 !important;
+  /* background-color: #48a8e4 !important; */
+
+}
+ 
+@font-face {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+}
+
+
+@font-face {
+  font-family: 'Poppins', sans-serif;
+  font-style: italic;
+  font-weight: 100;
+  font-display: swap;
+  src: url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+}
+
+@font-face {
+  font-family: 'Poppins', sans-serif;
+  font-style: italic;
+  font-weight: 100;
+  font-display: swap;
+  src: url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+}
+
+
+@font-face {
+  font-family: "Popines";
+  font-style: italic;
+  font-weight: 200;
+  font-display: swap;
+  src: url("https://example.com/fonts/Popines-SemiBold.woff2") format("woff2"),
+    url("https://example.com/fonts/Popines-SemiBold.woff") format("woff");
+}
+
+
+@font-face {
+  font-family: "Popines";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url("https://example.com/fonts/Popines-SemiBold.woff2") format("woff2"),
+    url("https://example.com/fonts/Popines-SemiBold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Popines";
+  font-style: italic;
+  font-weight: 300;
+  font-display: swap;
+  src: url("https://example.com/fonts/Popines-SemiBold.woff2") format("woff2"),
+    url("https://example.com/fonts/Popines-SemiBold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Popines";
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url("https://example.com/fonts/Popines-SemiBold.woff2") format("woff2"),
+    url("https://example.com/fonts/Popines-SemiBold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Popines";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("https://example.com/fonts/Popines-SemiBold.woff2") format("woff2"),
+    url("https://example.com/fonts/Popines-SemiBold.woff") format("woff");
+}
+
+
+
+@font-face {
+  font-family: "Popines";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("https://example.com/fonts/Popines-SemiBold.woff2") format("woff2"),
+    url("https://example.com/fonts/Popines-SemiBold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Popines";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("https://example.com/fonts/Popines-SemiBold.woff2") format("woff2"),
+    url("https://example.com/fonts/Popines-SemiBold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Popines";
+  font-style: italic;
+  font-weight: 600;
+  font-display: swap;
+  src: url("https://example.com/fonts/Popines-SemiBold.woff2") format("woff2"),
+    url("https://example.com/fonts/Popines-SemiBold.woff") format("woff");
+}
+
+
+/* Variable font */
+@font-face {
+  font-family: "Popines (var)";
+  font-weight: 100 900;
+  font-display: swap;
+  font-style: normal;
+  font-named-instance: "Regular";
+  src: url("https://example.com/fonts/Popines-SemiBold.woff2") format("woff2"),
+  url("https://example.com/fonts/Popines-SemiBold.woff") format("woff");}
+
+@font-face {
+  font-family: "Popines (var)";
+  font-weight: 100 900;
+  font-display: swap;
+  font-style: italic;
+  font-named-instance: "Italic";
+  src: url("https://example.com/fonts/Popines-SemiBold.woff2") format("woff2"),
+  url("https://example.com/fonts/Popines-SemiBold.woff") format("woff");}
+
+/*
+------------
+*/
+
+a[href="https://ko-fi.com/tweetgen"]
+{
+  display: none; /* Hiding link to ko-fi until it's fully set up */
+}
+
+body {
+  margin-bottom: 10px;
+}
+
+body,
+.ui,
+.tooltip {
+  font-family: "Popines", "Helvetica Neue", system-ui, -apple-system, "Segoe UI",
+    Roboto, sans-serif;
+}
+
+@supports (font-variation-settings: normal) {
+  body,
+  .ui,
+  .tooltip {
+    font-family: "Popines (var)", "Helvetica Neue", system-ui, -apple-system,
+      "Segoe UI", Roboto, sans-serif;
+  }
+}
+
+.btn-link,
+.btn-link:focus {
+  text-decoration: none;
+  outline: none;
+  border: none;
+  box-shadow: none;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover,
+.btn-link:hover {
+  text-decoration: underline;
+}
+
+img {
+  max-width: 100%;
+}
+
+.errorbanner {
+  margin: 0;
+  padding: 0.75rem;
+  background-color: #dc3545;
+  color: #ffffff;
+  font-size: 1rem;
+}
+#generateButton:hover{
+  color:black;
+  background:linear-gradient(#6c757d,#a2d7f8)
+}
+
+.errorbanner svg {
+  display: inline-block;
+  height: 2em;
+  margin-right: 0.5em;
+}
+
+.errorbanner p {
+  display: inline-block;
+  margin: 0;
+  vertical-align: middle;
+}
+
+/*
+------------
+Navbar css
+*/
+
+.navbar {
+  font-size: 1.5rem;
+  /* background-color: transparent; */
+  font-weight: bold;
+  background-color: #a2d7f8;
+
+}
+
+.mainnav {
+  border: 2px solid #c4cfd6;
+  border-radius: 6px;
+}
+
+@media (min-width: 992px) {
+  .navbar {
+    font-size: 2rem;
+  }
+
+  .mainnav {
+    display: flex;
+    justify-content: space-between;
+    border: none;
+  }
+
+  .nav-links {
+    min-width: 50vw;
+    justify-content: space-evenly;
+  }
+
+  .nav-links .nav-item {
+    margin-right: 0.75em;
+  }
+
+  .nav-media {
+    justify-content: flex-end;
+  }
+}
+
+.dropdown-item {
+  font-weight: bold;
+}
+
+svg.media-icon {
+  height: 0.8em;
+  vertical-align: middle;
+  fill: currentColor;
+}
+
+.smaller-nav-item {
+  font-size: 0.8em;
+}
